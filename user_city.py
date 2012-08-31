@@ -1,7 +1,7 @@
 #
 # problem 
 # =======
-#	In the dynamic language of your choice, write a short program 
+# In the dynamic language of your choice, write a short program 
 # that will:
 #
 #   define a list of the following user ids 42346, 77290,
