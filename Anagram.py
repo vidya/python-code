@@ -1,8 +1,5 @@
-# File name: Anagram.py
-
 
 import profile
-
 
 def isAnagram(str1, str2):
     if (len(str1) != len(str2)) or (len(str1) == 0):
@@ -26,21 +23,17 @@ def isAnagram(str1, str2):
 
     return charCountList == zeroList
 
-#--------- main { -------------
-
-#------ test cases { ----------
-#s1, s2 = '', 'item'
-#s1, s2 = 'time', ''
-#s1, s2 = 'time', 'itemizer'
-#s1, s2 = 'time', 'item'
+#--------- main  -------------
+# s1, s2 = '', 'item'
+# s1, s2 = 'time', ''
+# s1, s2 = 'time', 'itemizer'
+# s1, s2 = 'time', 'item'
     
 s1, s2 = 'timetabla', 'tableitem'
 profile.run('isAnagram(s1, s2)')
-#--------- } test cases ------------
 
 if isAnagram(s1, s2):
    print '=== ANAGRAMS: (', s1, ', ', s2, ') '
 else:
    print '=== NOT anagrams: (', s1, ', ', s2, ') '
-#---------- } main -----------
 
