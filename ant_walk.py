@@ -58,7 +58,7 @@ def count_reachable():
 
     nn += 1
 
-  print 'reach_count = ', reach_count
+  print 'the ant can access (', reach_count, ') points'
 
 #------------------ main ----------------------
 count_reachable()
